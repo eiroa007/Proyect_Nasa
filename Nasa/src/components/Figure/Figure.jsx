@@ -1,7 +1,7 @@
 const Figure = ({ data }) => {
     return (
     <figure>
-    <img src={data.url} alt={data.title} />
+    
     <div class="window">
     <div class="title-bar">
     <button aria-label="Close" class="close"></button>

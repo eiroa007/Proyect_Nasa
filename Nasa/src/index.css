@@ -1,6 +1,6 @@
 :root {
-  --primary: #efefef;
-  --secondary: #5b54ba;
+  --primary: #b5bc92;
+  --secondary: #e5e5ed;
   font-family: "Helvetica", sans-serif;
 }
 
@@ -17,6 +17,7 @@ html {
 body {
   color: var(--secondary);
   background-color: var(--primary);
+  background-image: url(https://thumbs.dreamstime.com/z/fondo-cient%C3%ADfico-abstracto-planetas-en-espacio-nebulosa-y-estrellas-elementos-de-esta-imagen-equipados-por-la-nasa-de-la-nasa-84026576.jpg);
 }
 
 ul {
@@ -24,7 +25,7 @@ ul {
 }
 
 a {
-  color: inherit;
+  color: indianred;
   text-decoration: none;
 }
 

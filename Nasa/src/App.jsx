@@ -32,9 +32,11 @@ useEffect(() => {
 
   return (
     <div className="App">
-      <h2 className="title">
-        NASA API <img src={"logo"} className="logo" alt="NASA LOGO"/>
-              </h2>
+      <div className='contair'>
+        <img src={"https://static.vecteezy.com/system/resources/previews/022/424/490/original/nasa-logo-editorial-free-vector.jpg"} className="logo" alt="NASA LOGO"/>
+        <h2 className="title">
+        NASA API </h2>      
+      </div>
 <h1>Imagen astronómica del día</h1>
 <input type="date" id="photo-date" onChange={handleInput} />
 {date > today ? (
